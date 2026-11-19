@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты веб-разработчика Ильи Сысоева — заказать сайт</title>
+    <meta name="description" content="Свяжитесь с веб-разработчиком Ильей Сысоевым для заказа сайта на Laravel или UI/UX-дизайна в Figma. Оставьте заявку через удобную форму или напишите на GitHub!">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="portfolio-card">
+        <header>
+            <nav class="site-nav" aria-label="Основная навигация">
+                <a href="index.html">Главная</a>
+                <a href="about.html">О себе</a>
+                <a href="portfolio.html">Портфолио</a>
+                <a href="contacts.html" class="active">Контакты</a>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Контакты для заказа веб-разработки и дизайна</h1>
+
+            <section>
+                <h2>Форма обратной связи</h2>
+                <h3>Быстрая заявка на проект</h3>
+
+                <form id="contactForm">
+                    <div class="info-group">
+                        <label for="userName" class="label-text">Ваше имя *</label>
+                        <input type="text" id="userName" class="fake-input" placeholder="Имя" required>
+                    </div>
+                    <div class="info-group">
+                        <label for="userEmail" class="label-text">Email для ответа *</label>
+                        <input type="email" id="userEmail" class="fake-input" placeholder="name@example.com" required>
+                    </div>
+                    <div class="info-group">
+                        <label for="userMessage" class="label-text">Описание задачи</label>
+                        <textarea id="userMessage" rows="3" class="fake-input" placeholder="Нужен сайт на Laravel или дизайн в Figma..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Отправить заявку</button>
+                    <p id="formStatus" class="form-status"></p>
+                </form>
+            </section>
+
+            <section>
+                <h2>Прямые ссылки и соцсети</h2>
+                <h3>Репозиторий GitHub и почта</h3>
+                <div class="fake-input">
+                    <p><strong>GitHub:</strong> <a href="https://github.com/IlyaSysoev/portfolio" target="_blank" rel="noopener noreferrer" style="color: #e28be2;">github.com/IlyaSysoev/portfolio</a></p>
+                    <p><strong>Город:</strong> Доступен для удаленной работы</p>
+                </div>
+            </section>
+        </main>
+
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

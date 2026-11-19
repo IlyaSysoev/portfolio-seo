@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+Allow: /
+
+Sitemap: https://ilyasysoev.github.io/portfolio-seo/sitemap.xml
